@@ -21,4 +21,63 @@ Kroki:
 - Wydruk komunikatu o zakończeniu testu.
 
 
+## 2. Skrypt testujący Google
+**test_google.js**
+
+Skrypt testuje wyszukiwanie na Google, sprawdzając:
+- Poprawność otwarcia strony Google,
+- Wyszukiwanie frazy "Selenium WebDriver",
+- Obecność wyników wyszukiwania,
+- Czy wyniki wyszukiwania zawierają frazę "Selenium".
+
+Kroki:
+- Przejście na stronę Google.
+- Zaakceptowanie polityki prywatności (jeśli jest obecna).
+- Sprawdzenie tytułu strony.
+- Wpisanie frazy w pole wyszukiwania i potwierdzenie Enterem.
+- Oczekiwanie na wyniki.
+- Sprawdzenie tytułu wyników.
+- Weryfikacja obecności wyników.
+- Weryfikacja adresu URL pod kątem frazy "Selenium".
+
+
+## 3. Skrypt testujący Wikipedię
+**test_wikipedia.js**
+
+Skrypt testuje wyszukiwanie i nawigację na stronie Wikipedii, sprawdzając:
+- Poprawność otwarcia strony,
+- Wyszukiwanie frazy "Selenium",
+- Obecność sekcji z wynikami oraz poprawność linków wewnętrznych.
+
+Kroki:
+- Przejście na stronę Wikipedia.
+- Sprawdzenie tytułu strony.
+- Wpisanie frazy w pole wyszukiwania.
+- Oczekiwanie na załadowanie artykułu.
+- Sprawdzenie obecności słowa "chemical" w treści artykułu.
+- Znalezienie pierwszego linku w artykule i kliknięcie go.
+- Sprawdzenie tytułu nowej strony.
+- Weryfikacja obecności słowa "element" na nowej stronie.
+
+## 4. Skrypt testujący Joinero
+**test_joinero.js**
+
+Skrypt testuje proces wyszukiwania i dodawania produktu do koszyka w sklepie Joinero.
+- Poprawność otwarcia strony,
+- Funkcję wyszukiwania,
+- Dodanie produktu do koszyka oraz aktualizację liczby produktów w koszyku.
+
+Kroki:
+- Przejście na stronę Joinero.
+- Sprawdzenie tytułu strony.
+- Wyszukanie produktu za pomocą pola wyszukiwania.
+- Wpisanie litery "a" w polu wyszukiwania.
+- Oczekiwanie na sugestie wyszukiwania.
+- Wybranie pierwszej sugestii.
+- Znalezienie i kliknięcie przycisku "Dodaj do koszyka".
+- Sprawdzenie liczby produktów w koszyku.
+
+
+
+
 
