@@ -1,6 +1,13 @@
 # Opis skryptów testowych
 Niniejszy dokument opisuje cztery skrypty testowe wykonane w JavaScript przy użyciu Selenium WebDriver. Skrypty testują podstawowe funkcjonalności stron internetowych: DuckDuckGo, Google, Wikipedia oraz Joinero.
 
+## Użycie
+Każdy skrypt jest samodzielnym plikiem i można go uruchomić w środowisku Node.js, wywołując polecenie:
+```bash
+node nazwa_skryptu.js
+```
+
+
 ## 1. Skrypt testujący DuckDuckGo
 **test_duckduckgo.js**
 
@@ -76,6 +83,8 @@ Kroki:
 - Wybranie pierwszej sugestii.
 - Znalezienie i kliknięcie przycisku "Dodaj do koszyka".
 - Sprawdzenie liczby produktów w koszyku.
+
+
 
 
 
