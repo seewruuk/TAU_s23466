@@ -1,1 +1,2 @@
+# Opis skryptów testowych
 Niniejszy dokument opisuje cztery skrypty testowe wykonane w JavaScript przy użyciu Selenium WebDriver. Skrypty testują podstawowe funkcjonalności stron internetowych: DuckDuckGo, Google, Wikipedia oraz Joinero.
