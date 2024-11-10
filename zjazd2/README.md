@@ -3,6 +3,7 @@ Niniejszy dokument opisuje cztery skrypty testowe wykonane w JavaScript przy uż
 
 ## 1. Skrypt testujący DuckDuckGo
 **test_duckduckgo.js**
+
 Skrypt testuje funkcję wyszukiwania na stronie DuckDuckGo. Skrypt sprawdza, czy:
 - Strona DuckDuckGo otwiera się poprawnie,
 - Wyszukiwanie frazy "Polsko-Japońska Akademia Technik Komputerowych w Gdańsku" działa,
