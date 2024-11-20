@@ -25,7 +25,7 @@ class Gra:
         self.wygrana = False
 
         self.okno = pygame.display.set_mode((self.szerokosc * ROZMIAR_KRATKI, self.wysokosc * ROZMIAR_KRATKI))
-        pygame.display.set_caption("Prosta Gra")
+        pygame.display.set_caption("TAU Lab3")
         self.okno.fill(KOLOR_TLA)
 
     def generuj_pozycje_start_stop(self):
@@ -45,7 +45,7 @@ class Gra:
         self.plansza[self.pozycja_stop[0]][self.pozycja_stop[1]] = 'B'
 
     def generuj_przeszkody(self):
-        liczba_przeszkod = (self.szerokosc * self.wysokosc) // 5  # np. 20% planszy to przeszkody
+        liczba_przeszkod = (self.szerokosc * self.wysokosc) // 5
         for _ in range(liczba_przeszkod):
             x = random.randint(0, self.wysokosc -1)
             y = random.randint(0, self.szerokosc -1)
